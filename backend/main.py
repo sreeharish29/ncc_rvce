@@ -138,8 +138,8 @@ _doc_lock = threading.Lock()  # PyMuPDF documents are not thread-safe
 
 @lru_cache(maxsize=6)
 def _open_doc(path: str):
-    # read bytes + filetype so odd extensions such as ".pdf_" still open
-    return fitz.open(stream=Path(path).read_bytes(), filetype="pdf")
+    # open by path (not read_bytes) so only the needed parts are read; filetype handles ".pdf_"
+    return fitz.open(path, filetype="pdf")
 
 
 def _render(path: Path, page_no: int, width: int, boxes: list, quality: int = 85) -> bytes:
@@ -147,27 +147,28 @@ def _render(path: Path, page_no: int, width: int, boxes: list, quality: int = 85
         doc = _open_doc(str(path))
         if not 1 <= page_no <= len(doc):
             raise HTTPException(404, "Page out of range")
-        pix = doc[page_no - 1].get_pixmap(dpi=OCR_DPI)  # same DPI as the OCR run
+        page = doc[page_no - 1]
+        full_w = page.rect.width * OCR_DPI / 72          # width the OCR boxes were measured at
+        zoom = (OCR_DPI / 72) * min(1.0, width / full_w)  # render straight to target size
+        pix = page.get_pixmap(matrix=fitz.Matrix(zoom, zoom))
         img = Image.frombytes("RGB", (pix.width, pix.height), pix.samples)
 
     if boxes:
+        s = pix.width / full_w                            # scale OCR boxes to this image
+        pad, lw = max(2, round(8 * s)), max(2, round(6 * s))
         img = img.convert("RGBA")
         overlay = Image.new("RGBA", img.size, (0, 0, 0, 0))
         d = ImageDraw.Draw(overlay)
-        pad = 8
         for b in boxes:
-            xs, ys = [p[0] for p in b], [p[1] for p in b]
+            xs, ys = [p[0] * s for p in b], [p[1] * s for p in b]
             x0, y0, x1, y1 = min(xs) - pad, min(ys) - pad, max(xs) + pad, max(ys) + pad
-            d.rectangle([0, y0, img.width, y1], fill=(255, 230, 0, 70))  # whole row
-            d.rectangle([x0, y0, x1, y1], outline=(255, 70, 0, 255), width=6)  # the USN
+            d.rectangle([0, y0, img.width, y1], fill=(255, 230, 0, 70))
+            d.rectangle([x0, y0, x1, y1], outline=(255, 70, 0, 255), width=lw)
         img = Image.alpha_composite(img, overlay).convert("RGB")
 
-    if width < img.width:
-        img = img.resize((width, round(img.height * width / img.width)), Image.LANCZOS)
     buf = io.BytesIO()
     img.save(buf, "JPEG", quality=quality)
     return buf.getvalue()
-
 
 # --------------------------------------------------------------------------- app
 
