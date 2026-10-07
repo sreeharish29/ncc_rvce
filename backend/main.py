@@ -12,6 +12,10 @@ Expected layout (this folder sits next to hf_model/ and the PDF folder):
 
 Override with the PDF_ROOT, OCR_DIR, OCR_DPI, CACHE_DIR and CORS_ORIGINS env vars.
 """
+import time
+from collections import defaultdict, deque
+from fastapi import Request
+from fastapi.responses import JSONResponse
 import hashlib
 import io
 import json
@@ -136,15 +140,42 @@ def img_url(pdf_id: str, page: int, width: int, q: str | None = None) -> str:
 _doc_lock = threading.Lock()  # PyMuPDF documents are not thread-safe
 
 
+
+
+LOCAL_PDF_DIR = Path(os.getenv("LOCAL_PDF_DIR", "/tmp/pdf_local"))
+_local_map: dict[str, str] = {}          # bucket path -> local copy
+_copy_locks: dict[str, threading.Lock] = {}
+_copy_guard = threading.Lock()
+
+
+def local_pdf(path: str) -> str:
+    """Copy a PDF from the (slow) bucket mount to local disk once, return the local path."""
+    if path in _local_map and os.path.exists(_local_map[path]):
+        return _local_map[path]
+    with _copy_guard:
+        lock = _copy_locks.setdefault(path, threading.Lock())
+    with lock:                                   # one copy per file, others wait for it
+        if path in _local_map and os.path.exists(_local_map[path]):
+            return _local_map[path]
+        src = Path(path)
+        st = src.stat()
+        key = hashlib.sha1(f"{path}|{st.st_size}|{int(st.st_mtime)}".encode()).hexdigest()
+        dst = LOCAL_PDF_DIR / f"{key}.pdf"
+        if not dst.exists():
+            LOCAL_PDF_DIR.mkdir(parents=True, exist_ok=True)
+            tmp = dst.with_suffix(".part")
+            shutil.copyfile(src, tmp)
+            os.replace(tmp, dst)                 # atomic, no half-written files
+        _local_map[path] = str(dst)
+        return str(dst)
+    
 @lru_cache(maxsize=6)
-def _open_doc(path: str):
-    # open by path (not read_bytes) so only the needed parts are read; filetype handles ".pdf_"
-    return fitz.open(path, filetype="pdf")
-
-
+def _open_doc(local_path: str):
+    return fitz.open(local_path, filetype="pdf")
 def _render(path: Path, page_no: int, width: int, boxes: list, quality: int = 85) -> bytes:
+    local = local_pdf(str(path)) 
     with _doc_lock:
-        doc = _open_doc(str(path))
+        doc = _open_doc(local)
         if not 1 <= page_no <= len(doc):
             raise HTTPException(404, "Page out of range")
         page = doc[page_no - 1]
@@ -173,12 +204,22 @@ def _render(path: Path, page_no: int, width: int, boxes: list, quality: int = 85
 # --------------------------------------------------------------------------- app
 
 
+def _warm():
+    for pdf in INDEX.values():
+        if pdf["path"] is not None:
+            try:
+                local_pdf(str(pdf["path"]))
+            except OSError:
+                pass
+
+
 @asynccontextmanager
 async def lifespan(_: FastAPI):
     INDEX.clear()
     INDEX.update(build_index())
     if not INDEX:
         print(f"WARNING: no OCR JSON found under {OCR_DIR}")
+    threading.Thread(target=_warm, daemon=True).start()   # doesn't block startup
     yield
 
 
@@ -190,6 +231,52 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+
+# (path prefix, max requests, per N seconds), first match wins
+RATE_RULES = [
+    ("/api/download", 5, 60),    # zips are the heaviest
+    ("/api/search", 20, 60),
+    ("/api/pdfs/", 150, 60),     # page images + PDF files; one search loads many images
+]
+_hits: dict[tuple, deque] = defaultdict(deque)
+_hits_lock = threading.Lock()
+
+
+def client_ip(request: Request) -> str:
+    # Cloud Run appends the real client IP as the LAST entry of X-Forwarded-For.
+    # Earlier entries can be spoofed by the client, so don't use the first one.
+    xff = request.headers.get("x-forwarded-for")
+    if xff:
+        return xff.split(",")[-1].strip()
+    return request.client.host if request.client else "unknown"
+
+
+@app.middleware("http")
+async def rate_limit(request: Request, call_next):
+    path = request.url.path
+    rule = next((r for r in RATE_RULES if path.startswith(r[0])), None)
+    if rule is None:                      # static site and /api/health are not limited
+        return await call_next(request)
+
+    prefix, limit, window = rule
+    now = time.monotonic()
+    key = (client_ip(request), prefix)
+    with _hits_lock:
+        if len(_hits) > 10_000:           # drop idle entries so memory can't grow forever
+            for k in [k for k, d in _hits.items() if not d or now - d[-1] > 120]:
+                del _hits[k]
+        dq = _hits[key]
+        while dq and now - dq[0] > window:
+            dq.popleft()
+        if len(dq) >= limit:
+            retry = int(window - (now - dq[0])) + 1
+            return JSONResponse(
+                {"detail": f"Too many requests. Try again in {retry}s."},
+                status_code=429,
+                headers={"Retry-After": str(retry)},
+            )
+        dq.append(now)
+    return await call_next(request)
 
 @app.get("/api/health")
 def health():
@@ -294,8 +381,9 @@ def _safe_folder(name: str, used: set[str], year: str) -> str:
 
 
 def _single_page_pdf(path: Path, page_no: int) -> bytes:
+    local = local_pdf(str(path))  
     with _doc_lock:
-        src = _open_doc(str(path))
+        src = _open_doc(local)
         if not 1 <= page_no <= len(src):
             raise HTTPException(404, "Page out of range")
         out = fitz.open()
