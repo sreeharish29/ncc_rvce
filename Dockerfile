@@ -21,7 +21,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Keep the same layout main.py expects: BASE = /app
 COPY backend/ ./backend/
 COPY hf_model/output/ ./hf_model/output/
-COPY ["NSS ACTIVITY POINTS LIST FROM 2021 to 2024", "./NSS ACTIVITY POINTS LIST FROM 2021 to 2024"]
+# COPY ["NSS ACTIVITY POINTS LIST FROM 2021 to 2024", "./NSS ACTIVITY POINTS LIST FROM 2021 to 2024"]
 COPY --from=web /web/out ./static
 
 EXPOSE 8000
