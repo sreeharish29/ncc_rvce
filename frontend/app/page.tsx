@@ -49,7 +49,9 @@ export default function Home() {
   return (
     <main className="wrap">
       <h1>NSS activity points lookup</h1>
+      <p className="muted">By Sreeharish TJ - AIML </p>
       <p className="muted">Find every list that mentions your USN.</p>
+
 
       <form onSubmit={onSubmit} className="search">
         <label htmlFor="usn">Enter your USN</label>
