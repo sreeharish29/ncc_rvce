@@ -1,0 +1,499 @@
+{
+  "source_pdf": "2022-23/List 2022-2023 2.pdf",
+  "page": 1,
+  "full_text": "Go, change the world\nRV Educational Institutions\nD\nRV College of Engineering\nR\nAutonomous\nApproved by AICTE,\nInstitution Affiliated\nNew Delhi\nto Visvesvaraya\nWAL ERVIDCE SCHENE\nTechnological\nUniversity, Belagavi\nNOT ME BUT YOU\nNSS RVCE:\nCumulative Event\nParticipants List\nMarch 2023 - September 2023\nPiaetr\nNOT MEBUT YOU",
+  "rows": [
+    [
+      "Go, change the world"
+    ],
+    [
+      "RV Educational Institutions",
+      "D"
+    ],
+    [
+      "RV College of Engineering",
+      "R"
+    ],
+    [
+      "Autonomous",
+      "Approved by AICTE,"
+    ],
+    [
+      "Institution Affiliated",
+      "New Delhi"
+    ],
+    [
+      "to Visvesvaraya",
+      "WAL ERVIDCE SCHENE"
+    ],
+    [
+      "Technological"
+    ],
+    [
+      "University, Belagavi"
+    ],
+    [
+      "NOT ME BUT YOU"
+    ],
+    [
+      "NSS RVCE:"
+    ],
+    [
+      "Cumulative Event"
+    ],
+    [
+      "Participants List"
+    ],
+    [
+      "March 2023 - September 2023"
+    ],
+    [
+      "Piaetr"
+    ],
+    [
+      "NOT MEBUT YOU"
+    ]
+  ],
+  "items": [
+    {
+      "text": "Go, change the world",
+      "score": 0.9806,
+      "box": [
+        [
+          1233,
+          76
+        ],
+        [
+          1623,
+          84
+        ],
+        [
+          1621,
+          132
+        ],
+        [
+          1232,
+          124
+        ]
+      ]
+    },
+    {
+      "text": "RV Educational Institutions",
+      "score": 0.9998,
+      "box": [
+        [
+          267,
+          106
+        ],
+        [
+          600,
+          114
+        ],
+        [
+          599,
+          142
+        ],
+        [
+          266,
+          134
+        ]
+      ]
+    },
+    {
+      "text": "D",
+      "score": 0.2347,
+      "box": [
+        [
+          605,
+          112
+        ],
+        [
+          621,
+          112
+        ],
+        [
+          621,
+          126
+        ],
+        [
+          605,
+          126
+        ]
+      ]
+    },
+    {
+      "text": "RV College of Engineering",
+      "score": 1.0,
+      "box": [
+        [
+          265,
+          138
+        ],
+        [
+          711,
+          148
+        ],
+        [
+          710,
+          186
+        ],
+        [
+          264,
+          176
+        ]
+      ]
+    },
+    {
+      "text": "R",
+      "score": 0.89,
+      "box": [
+        [
+          725,
+          145
+        ],
+        [
+          735,
+          155
+        ],
+        [
+          726,
+          164
+        ],
+        [
+          716,
+          154
+        ]
+      ]
+    },
+    {
+      "text": "Autonomous",
+      "score": 0.9999,
+      "box": [
+        [
+          267,
+          196
+        ],
+        [
+          384,
+          199
+        ],
+        [
+          383,
+          220
+        ],
+        [
+          266,
+          217
+        ]
+      ]
+    },
+    {
+      "text": "Approved by AICTE,",
+      "score": 0.9997,
+      "box": [
+        [
+          499,
+          199
+        ],
+        [
+          695,
+          202
+        ],
+        [
+          695,
+          228
+        ],
+        [
+          499,
+          225
+        ]
+      ]
+    },
+    {
+      "text": "Institution Affiliated",
+      "score": 0.9989,
+      "box": [
+        [
+          265,
+          219
+        ],
+        [
+          440,
+          222
+        ],
+        [
+          440,
+          246
+        ],
+        [
+          264,
+          243
+        ]
+      ]
+    },
+    {
+      "text": "New Delhi",
+      "score": 0.9992,
+      "box": [
+        [
+          499,
+          223
+        ],
+        [
+          603,
+          225
+        ],
+        [
+          602,
+          249
+        ],
+        [
+          499,
+          247
+        ]
+      ]
+    },
+    {
+      "text": "to Visvesvaraya",
+      "score": 0.9914,
+      "box": [
+        [
+          264,
+          244
+        ],
+        [
+          409,
+          249
+        ],
+        [
+          408,
+          274
+        ],
+        [
+          263,
+          268
+        ]
+      ]
+    },
+    {
+      "text": "WAL ERVIDCE SCHENE",
+      "score": 0.7723,
+      "box": [
+        [
+          1359,
+          257
+        ],
+        [
+          1538,
+          257
+        ],
+        [
+          1538,
+          357
+        ],
+        [
+          1359,
+          357
+        ]
+      ]
+    },
+    {
+      "text": "Technological",
+      "score": 1.0,
+      "box": [
+        [
+          265,
+          268
+        ],
+        [
+          393,
+          272
+        ],
+        [
+          392,
+          298
+        ],
+        [
+          264,
+          293
+        ]
+      ]
+    },
+    {
+      "text": "University, Belagavi",
+      "score": 0.9926,
+      "box": [
+        [
+          265,
+          294
+        ],
+        [
+          444,
+          298
+        ],
+        [
+          443,
+          323
+        ],
+        [
+          264,
+          319
+        ]
+      ]
+    },
+    {
+      "text": "NOT ME BUT YOU",
+      "score": 0.9945,
+      "box": [
+        [
+          1348,
+          347
+        ],
+        [
+          1532,
+          351
+        ],
+        [
+          1531,
+          371
+        ],
+        [
+          1348,
+          367
+        ]
+      ]
+    },
+    {
+      "text": "NSS RVCE:",
+      "score": 0.9863,
+      "box": [
+        [
+          546,
+          427
+        ],
+        [
+          1131,
+          442
+        ],
+        [
+          1128,
+          579
+        ],
+        [
+          542,
+          564
+        ]
+      ]
+    },
+    {
+      "text": "Cumulative Event",
+      "score": 1.0,
+      "box": [
+        [
+          421,
+          604
+        ],
+        [
+          1256,
+          620
+        ],
+        [
+          1254,
+          733
+        ],
+        [
+          419,
+          717
+        ]
+      ]
+    },
+    {
+      "text": "Participants List",
+      "score": 1.0,
+      "box": [
+        [
+          449,
+          757
+        ],
+        [
+          1217,
+          768
+        ],
+        [
+          1215,
+          895
+        ],
+        [
+          447,
+          884
+        ]
+      ]
+    },
+    {
+      "text": "March 2023 - September 2023",
+      "score": 0.9978,
+      "box": [
+        [
+          132,
+          904
+        ],
+        [
+          1524,
+          935
+        ],
+        [
+          1521,
+          1064
+        ],
+        [
+          129,
+          1033
+        ]
+      ]
+    },
+    {
+      "text": "Piaetr",
+      "score": 0.4414,
+      "box": [
+        [
+          593,
+          1163
+        ],
+        [
+          818,
+          1105
+        ],
+        [
+          849,
+          1227
+        ],
+        [
+          625,
+          1285
+        ]
+      ]
+    },
+    {
+      "text": "NOT MEBUT YOU",
+      "score": 0.9753,
+      "box": [
+        [
+          571,
+          1644
+        ],
+        [
+          1059,
+          1656
+        ],
+        [
+          1058,
+          1703
+        ],
+        [
+          570,
+          1691
+        ]
+      ]
+    }
+  ]
+}

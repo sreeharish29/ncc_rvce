@@ -1,0 +1,794 @@
+{
+  "source_pdf": "2025-26/jan-march_Activity points list.pdf",
+  "page": 20,
+  "full_text": "principdl@rvceedu in\nwww.rvceedu.in\nRV College of Engineering®\nAutoromous Inetitution\nAnproved by ANCTE, New Deltt.\nTel +91-00-68189110\nWINAL ERVICE SCISAM\nAffiábted to Vieve sveraya\nAccredted by NAAC, fangahuru\nR\n+91-80-68188111\nMyeore Road, RIV Vidyaniketan Post.\nTechncho cal Univers ty\nand NtA, New Deta\n+91-8068188112\nBengaluru- 560059, Kemataka, India\nBeboau\nNOT ME BUT YOU\nVijetha S\n1RV23BT062\n3\n20\nIRV24CS324\n3\nYadnya Raykar\n21\nNSS - Officer\nR.V.C.E.\nBangalore-560 059\nNs3Olcer\n220 082-enolepnet\nRashtreeya Sikshana Samithi Trust\nGo, change the world",
+  "rows": [
+    [
+      "principdl@rvceedu in"
+    ],
+    [
+      "RV College of Engineering®",
+      "Autoromous Inetitution",
+      "Anproved by ANCTE, New Deltt.",
+      "Tel +91-00-68189110",
+      "www.rvceedu.in",
+      "WINAL ERVICE SCISAM"
+    ],
+    [
+      "R",
+      "Myeore Road, RIV Vidyaniketan Post.",
+      "Bengaluru- 560059, Kemataka, India",
+      "Beboau",
+      "Affiábted to Vieve sveraya",
+      "Techncho cal Univers ty",
+      "and NtA, New Deta",
+      "Accredted by NAAC, fangahuru",
+      "+91-80-68188111",
+      "+91-8068188112"
+    ],
+    [
+      "NOT ME BUT YOU"
+    ],
+    [
+      "Vijetha S",
+      "1RV23BT062",
+      "3"
+    ],
+    [
+      "20"
+    ],
+    [
+      "Yadnya Raykar",
+      "IRV24CS324",
+      "3"
+    ],
+    [
+      "21"
+    ],
+    [
+      "NSS - Officer"
+    ],
+    [
+      "R.V.C.E."
+    ],
+    [
+      "Bangalore-560 059"
+    ],
+    [
+      "Ns3Olcer"
+    ],
+    [
+      "Rashtreeya Sikshana Samithi Trust",
+      "220 082-enolepnet",
+      "Go, change the world"
+    ]
+  ],
+  "items": [
+    {
+      "text": "principdl@rvceedu in",
+      "score": 0.9202,
+      "box": [
+        [
+          1088,
+          119
+        ],
+        [
+          1287,
+          119
+        ],
+        [
+          1287,
+          143
+        ],
+        [
+          1088,
+          143
+        ]
+      ]
+    },
+    {
+      "text": "www.rvceedu.in",
+      "score": 0.9513,
+      "box": [
+        [
+          1133,
+          144
+        ],
+        [
+          1286,
+          144
+        ],
+        [
+          1286,
+          164
+        ],
+        [
+          1133,
+          164
+        ]
+      ]
+    },
+    {
+      "text": "RV College of Engineering®",
+      "score": 0.9919,
+      "box": [
+        [
+          228,
+          166
+        ],
+        [
+          572,
+          152
+        ],
+        [
+          573,
+          189
+        ],
+        [
+          230,
+          203
+        ]
+      ]
+    },
+    {
+      "text": "Autoromous Inetitution",
+      "score": 0.8452,
+      "box": [
+        [
+          622,
+          169
+        ],
+        [
+          795,
+          165
+        ],
+        [
+          795,
+          185
+        ],
+        [
+          623,
+          189
+        ]
+      ]
+    },
+    {
+      "text": "Anproved by ANCTE, New Deltt.",
+      "score": 0.8854,
+      "box": [
+        [
+          831,
+          165
+        ],
+        [
+          1052,
+          160
+        ],
+        [
+          1053,
+          180
+        ],
+        [
+          831,
+          185
+        ]
+      ]
+    },
+    {
+      "text": "Tel +91-00-68189110",
+      "score": 0.9517,
+      "box": [
+        [
+          1085,
+          162
+        ],
+        [
+          1288,
+          164
+        ],
+        [
+          1288,
+          188
+        ],
+        [
+          1084,
+          186
+        ]
+      ]
+    },
+    {
+      "text": "WINAL ERVICE SCISAM",
+      "score": 0.6321,
+      "box": [
+        [
+          1386,
+          164
+        ],
+        [
+          1582,
+          180
+        ],
+        [
+          1573,
+          291
+        ],
+        [
+          1377,
+          275
+        ]
+      ]
+    },
+    {
+      "text": "Affiábted to Vieve sveraya",
+      "score": 0.7894,
+      "box": [
+        [
+          623,
+          186
+        ],
+        [
+          804,
+          183
+        ],
+        [
+          804,
+          204
+        ],
+        [
+          623,
+          207
+        ]
+      ]
+    },
+    {
+      "text": "Accredted by NAAC, fangahuru",
+      "score": 0.7936,
+      "box": [
+        [
+          830,
+          182
+        ],
+        [
+          1057,
+          179
+        ],
+        [
+          1058,
+          200
+        ],
+        [
+          830,
+          203
+        ]
+      ]
+    },
+    {
+      "text": "R",
+      "score": 0.9993,
+      "box": [
+        [
+          114,
+          194
+        ],
+        [
+          147,
+          194
+        ],
+        [
+          147,
+          227
+        ],
+        [
+          114,
+          227
+        ]
+      ]
+    },
+    {
+      "text": "+91-80-68188111",
+      "score": 0.9618,
+      "box": [
+        [
+          1121,
+          188
+        ],
+        [
+          1285,
+          188
+        ],
+        [
+          1285,
+          209
+        ],
+        [
+          1121,
+          209
+        ]
+      ]
+    },
+    {
+      "text": "Myeore Road, RIV Vidyaniketan Post.",
+      "score": 0.8635,
+      "box": [
+        [
+          230,
+          204
+        ],
+        [
+          495,
+          190
+        ],
+        [
+          496,
+          214
+        ],
+        [
+          231,
+          228
+        ]
+      ]
+    },
+    {
+      "text": "Techncho cal Univers ty",
+      "score": 0.7692,
+      "box": [
+        [
+          623,
+          205
+        ],
+        [
+          800,
+          202
+        ],
+        [
+          800,
+          222
+        ],
+        [
+          623,
+          225
+        ]
+      ]
+    },
+    {
+      "text": "and NtA, New Deta",
+      "score": 0.7032,
+      "box": [
+        [
+          829,
+          201
+        ],
+        [
+          977,
+          198
+        ],
+        [
+          977,
+          218
+        ],
+        [
+          829,
+          221
+        ]
+      ]
+    },
+    {
+      "text": "+91-8068188112",
+      "score": 0.9437,
+      "box": [
+        [
+          1122,
+          212
+        ],
+        [
+          1286,
+          212
+        ],
+        [
+          1286,
+          233
+        ],
+        [
+          1122,
+          233
+        ]
+      ]
+    },
+    {
+      "text": "Bengaluru- 560059, Kemataka, India",
+      "score": 0.7877,
+      "box": [
+        [
+          231,
+          227
+        ],
+        [
+          499,
+          213
+        ],
+        [
+          500,
+          234
+        ],
+        [
+          232,
+          248
+        ]
+      ]
+    },
+    {
+      "text": "Beboau",
+      "score": 0.5582,
+      "box": [
+        [
+          622,
+          224
+        ],
+        [
+          688,
+          224
+        ],
+        [
+          688,
+          245
+        ],
+        [
+          622,
+          245
+        ]
+      ]
+    },
+    {
+      "text": "NOT ME BUT YOU",
+      "score": 0.9905,
+      "box": [
+        [
+          1387,
+          266
+        ],
+        [
+          1568,
+          277
+        ],
+        [
+          1567,
+          298
+        ],
+        [
+          1386,
+          287
+        ]
+      ]
+    },
+    {
+      "text": "Vijetha S",
+      "score": 0.9999,
+      "box": [
+        [
+          597,
+          329
+        ],
+        [
+          712,
+          323
+        ],
+        [
+          714,
+          359
+        ],
+        [
+          599,
+          365
+        ]
+      ]
+    },
+    {
+      "text": "1RV23BT062",
+      "score": 0.9913,
+      "box": [
+        [
+          1044,
+          320
+        ],
+        [
+          1212,
+          317
+        ],
+        [
+          1213,
+          348
+        ],
+        [
+          1044,
+          351
+        ]
+      ]
+    },
+    {
+      "text": "3",
+      "score": 1.0,
+      "box": [
+        [
+          1372,
+          321
+        ],
+        [
+          1393,
+          321
+        ],
+        [
+          1393,
+          350
+        ],
+        [
+          1372,
+          350
+        ]
+      ]
+    },
+    {
+      "text": "20",
+      "score": 1.0,
+      "box": [
+        [
+          233,
+          349
+        ],
+        [
+          267,
+          349
+        ],
+        [
+          267,
+          381
+        ],
+        [
+          233,
+          381
+        ]
+      ]
+    },
+    {
+      "text": "IRV24CS324",
+      "score": 0.954,
+      "box": [
+        [
+          1047,
+          368
+        ],
+        [
+          1210,
+          368
+        ],
+        [
+          1210,
+          397
+        ],
+        [
+          1047,
+          397
+        ]
+      ]
+    },
+    {
+      "text": "3",
+      "score": 1.0,
+      "box": [
+        [
+          1369,
+          367
+        ],
+        [
+          1394,
+          367
+        ],
+        [
+          1394,
+          400
+        ],
+        [
+          1369,
+          400
+        ]
+      ]
+    },
+    {
+      "text": "Yadnya Raykar",
+      "score": 0.9999,
+      "box": [
+        [
+          562,
+          378
+        ],
+        [
+          748,
+          373
+        ],
+        [
+          749,
+          408
+        ],
+        [
+          563,
+          413
+        ]
+      ]
+    },
+    {
+      "text": "21",
+      "score": 1.0,
+      "box": [
+        [
+          232,
+          398
+        ],
+        [
+          266,
+          398
+        ],
+        [
+          266,
+          431
+        ],
+        [
+          232,
+          431
+        ]
+      ]
+    },
+    {
+      "text": "NSS - Officer",
+      "score": 0.9969,
+      "box": [
+        [
+          461,
+          647
+        ],
+        [
+          661,
+          620
+        ],
+        [
+          667,
+          659
+        ],
+        [
+          466,
+          686
+        ]
+      ]
+    },
+    {
+      "text": "R.V.C.E.",
+      "score": 0.9999,
+      "box": [
+        [
+          495,
+          681
+        ],
+        [
+          633,
+          661
+        ],
+        [
+          639,
+          699
+        ],
+        [
+          501,
+          720
+        ]
+      ]
+    },
+    {
+      "text": "Bangalore-560 059",
+      "score": 0.9995,
+      "box": [
+        [
+          425,
+          730
+        ],
+        [
+          713,
+          685
+        ],
+        [
+          720,
+          727
+        ],
+        [
+          431,
+          772
+        ]
+      ]
+    },
+    {
+      "text": "Ns3Olcer",
+      "score": 0.5465,
+      "box": [
+        [
+          862,
+          2122
+        ],
+        [
+          1057,
+          2128
+        ],
+        [
+          1056,
+          2161
+        ],
+        [
+          861,
+          2155
+        ]
+      ]
+    },
+    {
+      "text": "220 082-enolepnet",
+      "score": 0.6173,
+      "box": [
+        [
+          818,
+          2192
+        ],
+        [
+          1094,
+          2200
+        ],
+        [
+          1093,
+          2231
+        ],
+        [
+          817,
+          2223
+        ]
+      ]
+    },
+    {
+      "text": "Rashtreeya Sikshana Samithi Trust",
+      "score": 0.9992,
+      "box": [
+        [
+          176,
+          2206
+        ],
+        [
+          526,
+          2202
+        ],
+        [
+          526,
+          2226
+        ],
+        [
+          176,
+          2230
+        ]
+      ]
+    },
+    {
+      "text": "Go, change the world",
+      "score": 0.9929,
+      "box": [
+        [
+          1213,
+          2204
+        ],
+        [
+          1469,
+          2204
+        ],
+        [
+          1469,
+          2234
+        ],
+        [
+          1213,
+          2234
+        ]
+      ]
+    }
+  ]
+}

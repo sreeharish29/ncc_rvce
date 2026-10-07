@@ -1,0 +1,8 @@
+**/node_modules
+**/__pycache__
+*.pyc
+frontend/.next
+frontend/out
+backend/.cache
+.env
+NSS ACTIVITY POINTS LIST FROM 2021 to 2024/

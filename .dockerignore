@@ -1,0 +1,8 @@
+**/node_modules
+**/__pycache__
+frontend/.next
+frontend/out
+backend/.cache
+.git
+hf_model/*.py
+nss-usn-search

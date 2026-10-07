@@ -1,0 +1,451 @@
+{
+  "source_pdf": "2022-23/List 2022-2023 3.pdf",
+  "page": 1,
+  "full_text": "Go, change the world\nRV Educational Institutions\n4\nRV College of Engineering\nAulonomous\nApproved by AICTE,\nInstitution Affiliated\nNow Dolhi\nto Visvesvaraya\nTechnological\nUniversity, Belagavi\nNOT ME BUT YOU\nNSS RVCE:\nCumulative Event\nParticipants List\n2022-2023\nNOT ME BUT YOU\nBens",
+  "rows": [
+    [
+      "Go, change the world"
+    ],
+    [
+      "RV Educational Institutions",
+      "4"
+    ],
+    [
+      "RV College of Engineering"
+    ],
+    [
+      "Aulonomous",
+      "Approved by AICTE,"
+    ],
+    [
+      "Institution Affiliated",
+      "Now Dolhi"
+    ],
+    [
+      "to Visvesvaraya"
+    ],
+    [
+      "Technological"
+    ],
+    [
+      "University, Belagavi",
+      "NOT ME BUT YOU"
+    ],
+    [
+      "NSS RVCE:"
+    ],
+    [
+      "Cumulative Event"
+    ],
+    [
+      "Participants List"
+    ],
+    [
+      "2022-2023"
+    ],
+    [
+      "NOT ME BUT YOU"
+    ],
+    [
+      "Bens"
+    ]
+  ],
+  "items": [
+    {
+      "text": "Go, change the world",
+      "score": 0.9991,
+      "box": [
+        [
+          1019,
+          80
+        ],
+        [
+          1379,
+          54
+        ],
+        [
+          1383,
+          108
+        ],
+        [
+          1023,
+          135
+        ]
+      ]
+    },
+    {
+      "text": "RV Educational Institutions",
+      "score": 0.9998,
+      "box": [
+        [
+          196,
+          156
+        ],
+        [
+          481,
+          146
+        ],
+        [
+          482,
+          173
+        ],
+        [
+          196,
+          183
+        ]
+      ]
+    },
+    {
+      "text": "4",
+      "score": 0.5674,
+      "box": [
+        [
+          489,
+          148
+        ],
+        [
+          499,
+          148
+        ],
+        [
+          499,
+          158
+        ],
+        [
+          489,
+          158
+        ]
+      ]
+    },
+    {
+      "text": "RV College of Engineering",
+      "score": 1.0,
+      "box": [
+        [
+          195,
+          183
+        ],
+        [
+          575,
+          177
+        ],
+        [
+          576,
+          218
+        ],
+        [
+          195,
+          223
+        ]
+      ]
+    },
+    {
+      "text": "Aulonomous",
+      "score": 0.9967,
+      "box": [
+        [
+          201,
+          243
+        ],
+        [
+          300,
+          239
+        ],
+        [
+          301,
+          261
+        ],
+        [
+          202,
+          265
+        ]
+      ]
+    },
+    {
+      "text": "Approved by AICTE,",
+      "score": 0.9968,
+      "box": [
+        [
+          402,
+          234
+        ],
+        [
+          562,
+          234
+        ],
+        [
+          562,
+          258
+        ],
+        [
+          402,
+          258
+        ]
+      ]
+    },
+    {
+      "text": "Institution Affiliated",
+      "score": 0.9997,
+      "box": [
+        [
+          200,
+          266
+        ],
+        [
+          347,
+          259
+        ],
+        [
+          348,
+          281
+        ],
+        [
+          202,
+          288
+        ]
+      ]
+    },
+    {
+      "text": "Now Dolhi",
+      "score": 0.9222,
+      "box": [
+        [
+          400,
+          257
+        ],
+        [
+          488,
+          257
+        ],
+        [
+          488,
+          281
+        ],
+        [
+          400,
+          281
+        ]
+      ]
+    },
+    {
+      "text": "to Visvesvaraya",
+      "score": 0.9966,
+      "box": [
+        [
+          200,
+          291
+        ],
+        [
+          322,
+          287
+        ],
+        [
+          323,
+          308
+        ],
+        [
+          200,
+          312
+        ]
+      ]
+    },
+    {
+      "text": "Technological",
+      "score": 1.0,
+      "box": [
+        [
+          201,
+          313
+        ],
+        [
+          310,
+          309
+        ],
+        [
+          311,
+          332
+        ],
+        [
+          202,
+          337
+        ]
+      ]
+    },
+    {
+      "text": "University, Belagavi",
+      "score": 0.9893,
+      "box": [
+        [
+          200,
+          337
+        ],
+        [
+          354,
+          329
+        ],
+        [
+          355,
+          354
+        ],
+        [
+          202,
+          362
+        ]
+      ]
+    },
+    {
+      "text": "NOT ME BUT YOU",
+      "score": 0.9832,
+      "box": [
+        [
+          1135,
+          333
+        ],
+        [
+          1298,
+          328
+        ],
+        [
+          1298,
+          346
+        ],
+        [
+          1136,
+          351
+        ]
+      ]
+    },
+    {
+      "text": "NSS RVCE:",
+      "score": 0.9999,
+      "box": [
+        [
+          449,
+          612
+        ],
+        [
+          942,
+          603
+        ],
+        [
+          944,
+          711
+        ],
+        [
+          451,
+          720
+        ]
+      ]
+    },
+    {
+      "text": "Cumulative Event",
+      "score": 1.0,
+      "box": [
+        [
+          346,
+          770
+        ],
+        [
+          1059,
+          755
+        ],
+        [
+          1061,
+          854
+        ],
+        [
+          348,
+          869
+        ]
+      ]
+    },
+    {
+      "text": "Participants List",
+      "score": 0.9991,
+      "box": [
+        [
+          376,
+          911
+        ],
+        [
+          1026,
+          897
+        ],
+        [
+          1028,
+          1004
+        ],
+        [
+          378,
+          1018
+        ]
+      ]
+    },
+    {
+      "text": "2022-2023",
+      "score": 1.0,
+      "box": [
+        [
+          482,
+          1047
+        ],
+        [
+          915,
+          1041
+        ],
+        [
+          917,
+          1156
+        ],
+        [
+          484,
+          1162
+        ]
+      ]
+    },
+    {
+      "text": "NOT ME BUT YOU",
+      "score": 0.9719,
+      "box": [
+        [
+          500,
+          1841
+        ],
+        [
+          921,
+          1841
+        ],
+        [
+          921,
+          1885
+        ],
+        [
+          500,
+          1885
+        ]
+      ]
+    },
+    {
+      "text": "Bens",
+      "score": 0.9417,
+      "box": [
+        [
+          842,
+          2091
+        ],
+        [
+          905,
+          2091
+        ],
+        [
+          905,
+          2117
+        ],
+        [
+          842,
+          2117
+        ]
+      ]
+    }
+  ]
+}

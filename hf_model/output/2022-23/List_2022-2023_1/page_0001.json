@@ -1,0 +1,405 @@
+{
+  "source_pdf": "2022-23/List 2022-2023 1.pdf",
+  "page": 1,
+  "full_text": "Go, change the world\nRV Educational Institutions\nRV College of Engineering\nAutonomous\nApproved by AICTE,\nInstitution Afliliated\nNow Delhi\nto Visvesvaraya\nTechnological\nUniversity, Belagavi\nNOT ME BUT YOU\nNSS RVCE:\nCumulative Event\nParticipants\nList 2022-23\nNOT ME BUT YOU",
+  "rows": [
+    [
+      "Go, change the world"
+    ],
+    [
+      "RV Educational Institutions"
+    ],
+    [
+      "RV College of Engineering"
+    ],
+    [
+      "Autonomous",
+      "Approved by AICTE,"
+    ],
+    [
+      "Institution Afliliated",
+      "Now Delhi"
+    ],
+    [
+      "to Visvesvaraya"
+    ],
+    [
+      "Technological"
+    ],
+    [
+      "University, Belagavi"
+    ],
+    [
+      "NOT ME BUT YOU"
+    ],
+    [
+      "NSS RVCE:"
+    ],
+    [
+      "Cumulative Event"
+    ],
+    [
+      "Participants"
+    ],
+    [
+      "List 2022-23"
+    ],
+    [
+      "NOT ME BUT YOU"
+    ]
+  ],
+  "items": [
+    {
+      "text": "Go, change the world",
+      "score": 0.9889,
+      "box": [
+        [
+          1075,
+          68
+        ],
+        [
+          1558,
+          63
+        ],
+        [
+          1559,
+          128
+        ],
+        [
+          1075,
+          133
+        ]
+      ]
+    },
+    {
+      "text": "RV Educational Institutions",
+      "score": 0.9991,
+      "box": [
+        [
+          251,
+          115
+        ],
+        [
+          581,
+          115
+        ],
+        [
+          581,
+          142
+        ],
+        [
+          251,
+          142
+        ]
+      ]
+    },
+    {
+      "text": "RV College of Engineering",
+      "score": 0.9981,
+      "box": [
+        [
+          249,
+          148
+        ],
+        [
+          688,
+          150
+        ],
+        [
+          688,
+          187
+        ],
+        [
+          249,
+          185
+        ]
+      ]
+    },
+    {
+      "text": "Autonomous",
+      "score": 0.9994,
+      "box": [
+        [
+          255,
+          206
+        ],
+        [
+          375,
+          211
+        ],
+        [
+          374,
+          232
+        ],
+        [
+          254,
+          227
+        ]
+      ]
+    },
+    {
+      "text": "Approved by AICTE,",
+      "score": 0.9989,
+      "box": [
+        [
+          491,
+          207
+        ],
+        [
+          674,
+          207
+        ],
+        [
+          674,
+          234
+        ],
+        [
+          491,
+          234
+        ]
+      ]
+    },
+    {
+      "text": "Institution Afliliated",
+      "score": 0.9778,
+      "box": [
+        [
+          252,
+          231
+        ],
+        [
+          432,
+          234
+        ],
+        [
+          432,
+          257
+        ],
+        [
+          251,
+          254
+        ]
+      ]
+    },
+    {
+      "text": "Now Delhi",
+      "score": 0.945,
+      "box": [
+        [
+          491,
+          234
+        ],
+        [
+          589,
+          234
+        ],
+        [
+          589,
+          258
+        ],
+        [
+          491,
+          258
+        ]
+      ]
+    },
+    {
+      "text": "to Visvesvaraya",
+      "score": 0.9838,
+      "box": [
+        [
+          253,
+          256
+        ],
+        [
+          402,
+          262
+        ],
+        [
+          401,
+          283
+        ],
+        [
+          252,
+          277
+        ]
+      ]
+    },
+    {
+      "text": "Technological",
+      "score": 0.9915,
+      "box": [
+        [
+          254,
+          280
+        ],
+        [
+          388,
+          286
+        ],
+        [
+          387,
+          310
+        ],
+        [
+          253,
+          304
+        ]
+      ]
+    },
+    {
+      "text": "University, Belagavi",
+      "score": 0.9784,
+      "box": [
+        [
+          254,
+          304
+        ],
+        [
+          437,
+          311
+        ],
+        [
+          436,
+          339
+        ],
+        [
+          253,
+          332
+        ]
+      ]
+    },
+    {
+      "text": "NOT ME BUT YOU",
+      "score": 0.9979,
+      "box": [
+        [
+          1327,
+          357
+        ],
+        [
+          1509,
+          357
+        ],
+        [
+          1509,
+          374
+        ],
+        [
+          1327,
+          374
+        ]
+      ]
+    },
+    {
+      "text": "NSS RVCE:",
+      "score": 0.9999,
+      "box": [
+        [
+          454,
+          438
+        ],
+        [
+          1197,
+          441
+        ],
+        [
+          1197,
+          601
+        ],
+        [
+          454,
+          599
+        ]
+      ]
+    },
+    {
+      "text": "Cumulative Event",
+      "score": 1.0,
+      "box": [
+        [
+          308,
+          625
+        ],
+        [
+          1360,
+          634
+        ],
+        [
+          1359,
+          777
+        ],
+        [
+          307,
+          769
+        ]
+      ]
+    },
+    {
+      "text": "Participants",
+      "score": 1.0,
+      "box": [
+        [
+          481,
+          790
+        ],
+        [
+          1182,
+          793
+        ],
+        [
+          1182,
+          943
+        ],
+        [
+          481,
+          940
+        ]
+      ]
+    },
+    {
+      "text": "List 2022-23",
+      "score": 1.0,
+      "box": [
+        [
+          456,
+          968
+        ],
+        [
+          1203,
+          966
+        ],
+        [
+          1203,
+          1115
+        ],
+        [
+          456,
+          1118
+        ]
+      ]
+    },
+    {
+      "text": "NOT ME BUT YOU",
+      "score": 0.9968,
+      "box": [
+        [
+          599,
+          1695
+        ],
+        [
+          1072,
+          1691
+        ],
+        [
+          1072,
+          1739
+        ],
+        [
+          599,
+          1743
+        ]
+      ]
+    }
+  ]
+}

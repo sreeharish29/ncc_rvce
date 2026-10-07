@@ -1,0 +1,1159 @@
+{
+  "source_pdf": "2022-23/List 2022-2023 2.pdf",
+  "page": 3,
+  "full_text": "Go, change the world\nRV Educational Institutions\nR\nRV College of Engineering\nB\nAutonomous\nApproved by AICTE,\nInstitution Affiliated\nNew Delhi\nWUL SRVICE SHENE\nto Visvesvaraya\nTechnological\nUniversity, Belagavi\nNOT ME BUT YOU\nANTI-RAGGING ESSAY\n18\n16/08/2023\nAwareness Drive\n3\nCOMPETITION\n19\nPUSTHAKA EVENT: BIDADI\n19/08/2023\nCommunity Development\n3\n20\nGRADUATION CEREMONY\n19/08/2023\nCommunity Development\n3\nSPACE, SCIENCE AND\n21\nTECHNOLOGY ESSAY\n01/09/2023\nAwareness Drive\n2\nCOMPETITION\nINTERNATIONAL CLEAN AIR\n22\n07/09/2023\nAwareness Drive\n2\nDAY FOR BLUE SKIES\nDean Student Affairs\n12/9/23\nR.V.College of Engineering\nBengaluru - 560 059\n3",
+  "rows": [
+    [
+      "Go, change the world"
+    ],
+    [
+      "RV Educational Institutions",
+      "R"
+    ],
+    [
+      "RV College of Engineering",
+      "B"
+    ],
+    [
+      "Autonomous",
+      "Approved by AICTE,"
+    ],
+    [
+      "Institution Affiliated",
+      "New Delhi",
+      "WUL SRVICE SHENE"
+    ],
+    [
+      "to Visvesvaraya"
+    ],
+    [
+      "Technological"
+    ],
+    [
+      "University, Belagavi"
+    ],
+    [
+      "NOT ME BUT YOU"
+    ],
+    [
+      "18",
+      "ANTI-RAGGING ESSAY",
+      "16/08/2023",
+      "Awareness Drive",
+      "3"
+    ],
+    [
+      "COMPETITION"
+    ],
+    [
+      "19",
+      "PUSTHAKA EVENT: BIDADI",
+      "19/08/2023",
+      "Community Development",
+      "3"
+    ],
+    [
+      "20",
+      "GRADUATION CEREMONY",
+      "19/08/2023",
+      "Community Development",
+      "3"
+    ],
+    [
+      "SPACE, SCIENCE AND"
+    ],
+    [
+      "21",
+      "TECHNOLOGY ESSAY",
+      "01/09/2023",
+      "Awareness Drive",
+      "2"
+    ],
+    [
+      "COMPETITION"
+    ],
+    [
+      "22",
+      "INTERNATIONAL CLEAN AIR",
+      "07/09/2023",
+      "Awareness Drive",
+      "2"
+    ],
+    [
+      "DAY FOR BLUE SKIES"
+    ],
+    [
+      "12/9/23"
+    ],
+    [
+      "Dean Student Affairs"
+    ],
+    [
+      "R.V.College of Engineering"
+    ],
+    [
+      "Bengaluru - 560 059"
+    ],
+    [
+      "3"
+    ]
+  ],
+  "items": [
+    {
+      "text": "Go, change the world",
+      "score": 0.9952,
+      "box": [
+        [
+          1215,
+          50
+        ],
+        [
+          1605,
+          50
+        ],
+        [
+          1605,
+          98
+        ],
+        [
+          1215,
+          98
+        ]
+      ]
+    },
+    {
+      "text": "RV Educational Institutions",
+      "score": 0.9974,
+      "box": [
+        [
+          255,
+          102
+        ],
+        [
+          585,
+          102
+        ],
+        [
+          585,
+          129
+        ],
+        [
+          255,
+          129
+        ]
+      ]
+    },
+    {
+      "text": "R",
+      "score": 0.9447,
+      "box": [
+        [
+          594,
+          101
+        ],
+        [
+          605,
+          101
+        ],
+        [
+          605,
+          111
+        ],
+        [
+          594,
+          111
+        ]
+      ]
+    },
+    {
+      "text": "RV College of Engineering",
+      "score": 0.9967,
+      "box": [
+        [
+          255,
+          133
+        ],
+        [
+          693,
+          136
+        ],
+        [
+          693,
+          174
+        ],
+        [
+          254,
+          171
+        ]
+      ]
+    },
+    {
+      "text": "B",
+      "score": 0.5897,
+      "box": [
+        [
+          701,
+          135
+        ],
+        [
+          714,
+          135
+        ],
+        [
+          714,
+          148
+        ],
+        [
+          701,
+          148
+        ]
+      ]
+    },
+    {
+      "text": "Autonomous",
+      "score": 1.0,
+      "box": [
+        [
+          258,
+          192
+        ],
+        [
+          373,
+          192
+        ],
+        [
+          373,
+          213
+        ],
+        [
+          258,
+          213
+        ]
+      ]
+    },
+    {
+      "text": "Approved by AICTE,",
+      "score": 0.9998,
+      "box": [
+        [
+          490,
+          189
+        ],
+        [
+          677,
+          189
+        ],
+        [
+          677,
+          216
+        ],
+        [
+          490,
+          216
+        ]
+      ]
+    },
+    {
+      "text": "Institution Affiliated",
+      "score": 1.0,
+      "box": [
+        [
+          257,
+          217
+        ],
+        [
+          428,
+          217
+        ],
+        [
+          428,
+          238
+        ],
+        [
+          257,
+          238
+        ]
+      ]
+    },
+    {
+      "text": "New Delhi",
+      "score": 0.9983,
+      "box": [
+        [
+          490,
+          216
+        ],
+        [
+          588,
+          216
+        ],
+        [
+          588,
+          237
+        ],
+        [
+          490,
+          237
+        ]
+      ]
+    },
+    {
+      "text": "WUL SRVICE SHENE",
+      "score": 0.718,
+      "box": [
+        [
+          1325,
+          224
+        ],
+        [
+          1530,
+          224
+        ],
+        [
+          1530,
+          326
+        ],
+        [
+          1325,
+          326
+        ]
+      ]
+    },
+    {
+      "text": "to Visvesvaraya",
+      "score": 0.9904,
+      "box": [
+        [
+          255,
+          239
+        ],
+        [
+          400,
+          241
+        ],
+        [
+          399,
+          265
+        ],
+        [
+          254,
+          263
+        ]
+      ]
+    },
+    {
+      "text": "Technological",
+      "score": 1.0,
+      "box": [
+        [
+          255,
+          264
+        ],
+        [
+          382,
+          264
+        ],
+        [
+          382,
+          288
+        ],
+        [
+          255,
+          288
+        ]
+      ]
+    },
+    {
+      "text": "University, Belagavi",
+      "score": 0.9996,
+      "box": [
+        [
+          257,
+          291
+        ],
+        [
+          434,
+          291
+        ],
+        [
+          434,
+          315
+        ],
+        [
+          257,
+          315
+        ]
+      ]
+    },
+    {
+      "text": "NOT ME BUT YOU",
+      "score": 0.9915,
+      "box": [
+        [
+          1335,
+          319
+        ],
+        [
+          1524,
+          319
+        ],
+        [
+          1524,
+          339
+        ],
+        [
+          1335,
+          339
+        ]
+      ]
+    },
+    {
+      "text": "ANTI-RAGGING ESSAY",
+      "score": 0.9949,
+      "box": [
+        [
+          269,
+          434
+        ],
+        [
+          554,
+          433
+        ],
+        [
+          554,
+          460
+        ],
+        [
+          269,
+          461
+        ]
+      ]
+    },
+    {
+      "text": "18",
+      "score": 1.0,
+      "box": [
+        [
+          162,
+          448
+        ],
+        [
+          198,
+          448
+        ],
+        [
+          198,
+          480
+        ],
+        [
+          162,
+          480
+        ]
+      ]
+    },
+    {
+      "text": "16/08/2023",
+      "score": 1.0,
+      "box": [
+        [
+          691,
+          450
+        ],
+        [
+          818,
+          450
+        ],
+        [
+          818,
+          477
+        ],
+        [
+          691,
+          477
+        ]
+      ]
+    },
+    {
+      "text": "Awareness Drive",
+      "score": 0.9922,
+      "box": [
+        [
+          973,
+          451
+        ],
+        [
+          1159,
+          451
+        ],
+        [
+          1159,
+          478
+        ],
+        [
+          973,
+          478
+        ]
+      ]
+    },
+    {
+      "text": "3",
+      "score": 1.0,
+      "box": [
+        [
+          1365,
+          452
+        ],
+        [
+          1386,
+          452
+        ],
+        [
+          1386,
+          480
+        ],
+        [
+          1365,
+          480
+        ]
+      ]
+    },
+    {
+      "text": "COMPETITION",
+      "score": 1.0,
+      "box": [
+        [
+          322,
+          468
+        ],
+        [
+          501,
+          468
+        ],
+        [
+          501,
+          492
+        ],
+        [
+          322,
+          492
+        ]
+      ]
+    },
+    {
+      "text": "19",
+      "score": 1.0,
+      "box": [
+        [
+          161,
+          532
+        ],
+        [
+          200,
+          532
+        ],
+        [
+          200,
+          566
+        ],
+        [
+          161,
+          566
+        ]
+      ]
+    },
+    {
+      "text": "PUSTHAKA EVENT: BIDADI",
+      "score": 0.9986,
+      "box": [
+        [
+          239,
+          536
+        ],
+        [
+          583,
+          536
+        ],
+        [
+          583,
+          560
+        ],
+        [
+          239,
+          560
+        ]
+      ]
+    },
+    {
+      "text": "19/08/2023",
+      "score": 1.0,
+      "box": [
+        [
+          692,
+          534
+        ],
+        [
+          818,
+          534
+        ],
+        [
+          818,
+          562
+        ],
+        [
+          692,
+          562
+        ]
+      ]
+    },
+    {
+      "text": "Community Development",
+      "score": 1.0,
+      "box": [
+        [
+          926,
+          535
+        ],
+        [
+          1207,
+          535
+        ],
+        [
+          1207,
+          565
+        ],
+        [
+          926,
+          565
+        ]
+      ]
+    },
+    {
+      "text": "3",
+      "score": 1.0,
+      "box": [
+        [
+          1363,
+          535
+        ],
+        [
+          1387,
+          535
+        ],
+        [
+          1387,
+          566
+        ],
+        [
+          1363,
+          566
+        ]
+      ]
+    },
+    {
+      "text": "20",
+      "score": 1.0,
+      "box": [
+        [
+          160,
+          601
+        ],
+        [
+          199,
+          601
+        ],
+        [
+          199,
+          635
+        ],
+        [
+          160,
+          635
+        ]
+      ]
+    },
+    {
+      "text": "GRADUATION CEREMONY",
+      "score": 0.9998,
+      "box": [
+        [
+          246,
+          604
+        ],
+        [
+          578,
+          604
+        ],
+        [
+          578,
+          631
+        ],
+        [
+          246,
+          631
+        ]
+      ]
+    },
+    {
+      "text": "19/08/2023",
+      "score": 1.0,
+      "box": [
+        [
+          692,
+          603
+        ],
+        [
+          818,
+          603
+        ],
+        [
+          818,
+          631
+        ],
+        [
+          692,
+          631
+        ]
+      ]
+    },
+    {
+      "text": "Community Development",
+      "score": 0.998,
+      "box": [
+        [
+          926,
+          601
+        ],
+        [
+          1207,
+          604
+        ],
+        [
+          1207,
+          635
+        ],
+        [
+          925,
+          632
+        ]
+      ]
+    },
+    {
+      "text": "3",
+      "score": 1.0,
+      "box": [
+        [
+          1364,
+          605
+        ],
+        [
+          1385,
+          605
+        ],
+        [
+          1385,
+          634
+        ],
+        [
+          1364,
+          634
+        ]
+      ]
+    },
+    {
+      "text": "SPACE, SCIENCE AND",
+      "score": 0.9925,
+      "box": [
+        [
+          275,
+          671
+        ],
+        [
+          547,
+          671
+        ],
+        [
+          547,
+          698
+        ],
+        [
+          275,
+          698
+        ]
+      ]
+    },
+    {
+      "text": "21",
+      "score": 1.0,
+      "box": [
+        [
+          160,
+          703
+        ],
+        [
+          196,
+          703
+        ],
+        [
+          196,
+          734
+        ],
+        [
+          160,
+          734
+        ]
+      ]
+    },
+    {
+      "text": "TECHNOLOGY ESSAY",
+      "score": 0.9997,
+      "box": [
+        [
+          276,
+          706
+        ],
+        [
+          547,
+          705
+        ],
+        [
+          547,
+          730
+        ],
+        [
+          276,
+          731
+        ]
+      ]
+    },
+    {
+      "text": "01/09/2023",
+      "score": 1.0,
+      "box": [
+        [
+          690,
+          704
+        ],
+        [
+          817,
+          704
+        ],
+        [
+          817,
+          731
+        ],
+        [
+          690,
+          731
+        ]
+      ]
+    },
+    {
+      "text": "Awareness Drive",
+      "score": 1.0,
+      "box": [
+        [
+          974,
+          705
+        ],
+        [
+          1158,
+          705
+        ],
+        [
+          1158,
+          732
+        ],
+        [
+          974,
+          732
+        ]
+      ]
+    },
+    {
+      "text": "2",
+      "score": 1.0,
+      "box": [
+        [
+          1363,
+          705
+        ],
+        [
+          1387,
+          705
+        ],
+        [
+          1387,
+          736
+        ],
+        [
+          1363,
+          736
+        ]
+      ]
+    },
+    {
+      "text": "COMPETITION",
+      "score": 0.9999,
+      "box": [
+        [
+          322,
+          738
+        ],
+        [
+          503,
+          738
+        ],
+        [
+          503,
+          765
+        ],
+        [
+          322,
+          765
+        ]
+      ]
+    },
+    {
+      "text": "INTERNATIONAL CLEAN AIR",
+      "score": 0.9992,
+      "box": [
+        [
+          230,
+          806
+        ],
+        [
+          592,
+          806
+        ],
+        [
+          592,
+          833
+        ],
+        [
+          230,
+          833
+        ]
+      ]
+    },
+    {
+      "text": "22",
+      "score": 1.0,
+      "box": [
+        [
+          160,
+          819
+        ],
+        [
+          200,
+          819
+        ],
+        [
+          200,
+          853
+        ],
+        [
+          160,
+          853
+        ]
+      ]
+    },
+    {
+      "text": "07/09/2023",
+      "score": 1.0,
+      "box": [
+        [
+          690,
+          821
+        ],
+        [
+          817,
+          821
+        ],
+        [
+          817,
+          849
+        ],
+        [
+          690,
+          849
+        ]
+      ]
+    },
+    {
+      "text": "Awareness Drive",
+      "score": 1.0,
+      "box": [
+        [
+          973,
+          823
+        ],
+        [
+          1158,
+          823
+        ],
+        [
+          1158,
+          850
+        ],
+        [
+          973,
+          850
+        ]
+      ]
+    },
+    {
+      "text": "2",
+      "score": 1.0,
+      "box": [
+        [
+          1363,
+          822
+        ],
+        [
+          1387,
+          822
+        ],
+        [
+          1387,
+          853
+        ],
+        [
+          1363,
+          853
+        ]
+      ]
+    },
+    {
+      "text": "DAY FOR BLUE SKIES",
+      "score": 0.9996,
+      "box": [
+        [
+          276,
+          840
+        ],
+        [
+          547,
+          840
+        ],
+        [
+          547,
+          864
+        ],
+        [
+          276,
+          864
+        ]
+      ]
+    },
+    {
+      "text": "Dean Student Affairs",
+      "score": 0.9986,
+      "box": [
+        [
+          1166,
+          1174
+        ],
+        [
+          1467,
+          1174
+        ],
+        [
+          1467,
+          1205
+        ],
+        [
+          1166,
+          1205
+        ]
+      ]
+    },
+    {
+      "text": "12/9/23",
+      "score": 0.9612,
+      "box": [
+        [
+          526,
+          1185
+        ],
+        [
+          701,
+          1156
+        ],
+        [
+          719,
+          1262
+        ],
+        [
+          544,
+          1290
+        ]
+      ]
+    },
+    {
+      "text": "R.V.College of Engineering",
+      "score": 0.9996,
+      "box": [
+        [
+          1124,
+          1208
+        ],
+        [
+          1508,
+          1212
+        ],
+        [
+          1508,
+          1247
+        ],
+        [
+          1124,
+          1243
+        ]
+      ]
+    },
+    {
+      "text": "Bengaluru - 560 059",
+      "score": 0.9824,
+      "box": [
+        [
+          1184,
+          1247
+        ],
+        [
+          1451,
+          1247
+        ],
+        [
+          1451,
+          1277
+        ],
+        [
+          1184,
+          1277
+        ]
+      ]
+    },
+    {
+      "text": "3",
+      "score": 1.0,
+      "box": [
+        [
+          1506,
+          2120
+        ],
+        [
+          1530,
+          2120
+        ],
+        [
+          1530,
+          2152
+        ],
+        [
+          1506,
+          2152
+        ]
+      ]
+    }
+  ]
+}
